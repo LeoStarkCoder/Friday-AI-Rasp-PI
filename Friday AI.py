@@ -6,6 +6,13 @@ import wikipedia
 import geocoder
 import pycountry
 import yt_search
+from urllib.request import urlopen
+import urllib.request
+import sys
+from twilio.rest import TwilioRestClient
+import wolframalpha
+import random
+import urllib.parse
 import datetime
 import psutil
 import smtplib
